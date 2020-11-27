@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    padding: 100px;
+    border-radius: 25px;
+}
+
+.items{
+    margin: 5px !important;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
