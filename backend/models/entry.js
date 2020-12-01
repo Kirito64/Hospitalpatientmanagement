@@ -10,6 +10,7 @@ const Entry = sequelize.define('entry', {
 		allowNull:false, 
 		primaryKey:true
 	},
+	userId:{type: Sequelize.INTEGER, allowNull:false},
 	name: { type: Sequelize.STRING, allowNull:false }, 
 	email: { type: Sequelize.STRING}, 
     contact: {type: Sequelize.STRING, allowNULL:false},

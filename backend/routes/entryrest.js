@@ -2,6 +2,7 @@ const router = require('express').Router();
 const db = require('../config/db')
 router.post('/createentry', async (req, res) => {
     const data = {
+        userId: req.body.userId,
         name: req.body.name,
         email: req.body.email,
         contact: req.body.contact, 
