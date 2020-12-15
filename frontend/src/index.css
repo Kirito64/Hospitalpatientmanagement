@@ -1,0 +1,11 @@
+html,body {
+  margin: 0;
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Atkinson Hyperlegible'), url('./fonts/Atkinson-Hyperlegible-Regular-102.woff') format('woff');
+}
