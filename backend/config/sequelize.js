@@ -1,12 +1,12 @@
 const sequelize = require('sequelize');
-
+const db = require('./keys').db;
 const Sequelize = new sequelize( 
-    'HospitalManagement', 
-    'main', 
-    'JATINasdf1234', { 
-        dialect: 'mysql',          
-        host: 'localhost'
+    db.dbname, 
+    db.user, 
+    db.password, { 
+        dialect: db.dialect,          
+        host: db.hostname
     } 
-); 
+);
 
 module.exports = Sequelize
